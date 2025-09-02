@@ -13,6 +13,16 @@ function multiplicar(a, b) {
 }
 console.log("Multiplicación 6 * 7 =", multiplicar(6, 7));
 
+// Función para dividir dos números
+function dividir(a, b) {
+  if (b === 0) {
+    return "Error: no se puede dividir por cero";
+  }
+  return a / b;
+}
+console.log("División 20 / 4 =", dividir(20, 4));
+
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
