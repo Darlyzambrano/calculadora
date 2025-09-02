@@ -22,6 +22,21 @@ function dividir(a, b) {
 }
 console.log("División 20 / 4 =", dividir(20, 4));
 
+function factorial(n) {
+  if (n < 0) {
+    return "Error: el factorial no está definido para negativos";
+  }
+  if (n === 0 || n === 1) {
+    return 1;
+  }
+  let resultado = 1;
+  for (let i = 2; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
+console.log("Factorial de 5 =", factorial(5));
+
 
 // Función principal del programa
 function calculadora() {
