@@ -37,6 +37,10 @@ function factorial(n) {
 }
 console.log("Factorial de 5 =", factorial(5));
 
+function exponente(base, exp) {
+  return Math.pow(base, exp);
+}
+console.log("Exponente 2^3 =", exponente(2, 3));
 
 // Función principal del programa
 function calculadora() {
