@@ -42,6 +42,15 @@ function exponente(base, exp) {
 }
 console.log("Exponente 2^3 =", exponente(2, 3));
 
+function raizCuadrada(n) {
+  if (n < 0) {
+    return "Error: no se puede calcular la raíz de un número negativo";
+  }
+  return Math.sqrt(n);
+}
+console.log("Raíz cuadrada de 16 =", raizCuadrada(16));
+
+
 // Función principal del programa
 function calculadora() {
   var opcion = prompt(
